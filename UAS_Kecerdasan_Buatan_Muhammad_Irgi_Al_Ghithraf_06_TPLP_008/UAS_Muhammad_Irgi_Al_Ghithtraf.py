@@ -452,8 +452,8 @@ class Temperature(BaseFuzzy) :
     result.append((a15, z15))
 
     return result
+      
   def defuzifikasi(self, data_inferensi=[]):
-
     data_inferensi = data_inferensi if data_inferensi else self._inferensi()
     res_a_z = 0
     res_a = 0
